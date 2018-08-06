@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*---------------------- Navbar */
+
+.navbar {
+    background-color: rgba(74,189,172,0.5);
+    border-bottom: 1px solid #fc4a1a;
+}
+
+.navbar-brand {
+    color: #4abdac;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #4abdac;
+}
+
+.navbar-toggler-icon {
+    color: #4abdac;
+    padding-top: 5px;
+}
+
+/*-- Removes default Bootstrap outline property on button */
+button,
+button:active,
+button:focus, 
+button:hover,
+.btn,
+.btn:active, 
+.btn:focus, 
+.btn:hover{   
+    outline:none !important;
+}
