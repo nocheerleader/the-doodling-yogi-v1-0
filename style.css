@@ -67,7 +67,7 @@ button:hover,
     border-radius: 10px;
 }
 
-.fa {
+#header .fa {
     color: #ffffff;
     margin: 5% 0;
 }
