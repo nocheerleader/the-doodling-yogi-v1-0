@@ -4,6 +4,12 @@ body {
 }
 
 
+.fa {
+    color: #4abdac;
+}
+
+
+
 /*---------------------- Navbar */
 
 .navbar {
@@ -35,7 +41,7 @@ body {
     padding-top: 5px;
 }
 
-/*-- Removes default Bootstrap outline property on button */
+/*-- Removes default Bootstrap outline property on button 
 button,
 button:active,
 button:focus, 
@@ -45,4 +51,4 @@ button:hover,
 .btn:focus, 
 .btn:hover{   
     outline:none !important;
-}
+} ------*/
