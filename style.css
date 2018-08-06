@@ -1,13 +1,8 @@
 
-body {
+body, html {
+    height: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
-
-
-.fa {
-    color: #4abdac;
-}
-
 
 
 /*---------------------- Navbar */
@@ -18,13 +13,13 @@ body {
 }
 
 .navbar-brand {
-    color: #4abdac;
+    color: #ffffff;
     font-family: 'Pacifico', cursive;
     font-size: 24px;
 }
 
 .navbar-brand:hover {
-    color: #ffffff;
+    color: #fc4a1a;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -33,11 +28,11 @@ body {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: #4abdac;
+    color: #fc4a1a;
 }
 
 .navbar-toggler-icon {
-    color: #4abdac;
+    color: #fc4a1a;
     padding-top: 5px;
 }
 
@@ -52,3 +47,34 @@ button:hover,
 .btn:hover{   
     outline:none !important;
 } ------*/
+
+/*---------------------- Header */
+
+#header {
+    background: url(img/header.jpg) center center no-repeat;
+    opacity: 0.85;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#header-title {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.fa {
+    color: #ffffff;
+    margin: 5% 0;
+}
+
+.fa:hover {
+    color: #fc4a1a;
+}
+
+/*---------------------- Media Queries */
+
