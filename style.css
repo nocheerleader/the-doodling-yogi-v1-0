@@ -120,10 +120,23 @@ outline:none !important;
 /*---------------------- Meditation */
 
 #meditation {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/*---------------------- Illustrated Guides */
+
+#guides {
     background-color: #f8f7f9;
     padding: 60px 0;
     text-align: center;
 }
+
+.card {
+    margin-bottom: 20px;
+}
+
 
 /*---------------------- Media Queries */
 
@@ -137,6 +150,10 @@ outline:none !important;
     }
 
     #meditation {
+    text-align: left;
+    }
+    
+    #guides {
     text-align: left;
     }
     
