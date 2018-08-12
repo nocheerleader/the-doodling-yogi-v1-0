@@ -1,4 +1,18 @@
 
+/*---------------------- Color Scheme
+
+green: #4abdac;
+orange: #fc4a1a;
+yellow: #f7b733;
+grey: #f8f7f9;
+
+
+--------------------------    */
+
+
+
+
+
 body, html {
     height: 100%;
     font-family: 'Ubuntu', sans-serif;
@@ -36,8 +50,7 @@ body, html {
     padding-top: 5px;
 }
 
-/*-- Removes default Bootstrap outline property on button 
-button,
+/*-- Removes default Bootstrap outline property on nav dropdown button ------*/
 button:active,
 button:focus, 
 button:hover,
@@ -45,8 +58,8 @@ button:hover,
 .btn:active, 
 .btn:focus, 
 .btn:hover{   
-    outline:none !important;
-} ------*/
+outline:none !important; 
+} 
 
 /*---------------------- Header */
 
@@ -72,8 +85,44 @@ button:hover,
     margin: 5% 0;
 }
 
-.fa:hover {
+#header .fa:hover {
     color: #fc4a1a;
+}
+
+/*---------------------- About Me */
+
+#about {
+    background-color: #f8f7f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/*---------------------- Social Media Connect */
+
+#connect {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#connect .fa {
+    color: #fc4a1a;
+    margin-top: 30px;
+    padding-left: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+#connect .fa:hover {
+    color: #4abdac;
+    
+}
+
+
+/*---------------------- Meditation */
+
+#meditation {
+    background-color: #f8f7f9;
+    padding: 60px 0;
+    text-align: center;
 }
 
 /*---------------------- Media Queries */
