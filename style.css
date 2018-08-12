@@ -1,5 +1,5 @@
 
-/*---------------------- Color Scheme
+/*---------------------- Color Scheme 
 
 green: #4abdac;
 orange: #fc4a1a;
@@ -7,11 +7,9 @@ yellow: #f7b733;
 grey: #f8f7f9;
 
 
---------------------------    */
-
-
-
-
+-------------------------- 
+            General  
+---------------------*/
 
 body, html {
     height: 100%;
@@ -200,6 +198,22 @@ blockquote{
     padding: 60px 0;
 }
 
+/*---------------------- Footer */
+
+#footer {
+    padding: 30px 0;
+    background-color: #4abdac;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#footer a {
+    color: #fc4a1a;
+}
+
+#footer .fa {
+    padding: 0 5px;
+}
 
 /*---------------------- Media Queries */
 
