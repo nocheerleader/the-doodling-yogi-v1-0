@@ -127,3 +127,17 @@ outline:none !important;
 
 /*---------------------- Media Queries */
 
+@media (min-width: 768px) {
+    #about {
+    text-align: left;
+    }
+
+    #connect {
+    text-align: left;
+    }
+
+    #meditation {
+    text-align: left;
+    }
+    
+}
