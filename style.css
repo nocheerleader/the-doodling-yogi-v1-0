@@ -97,6 +97,13 @@ outline:none !important;
     text-align: center;
 }
 
+#about .fa {
+    color: #fc4a1a;
+    text-align:center;
+    width:50%;
+}
+    
+
 /*---------------------- Social Media Connect */
 
 #connect {
