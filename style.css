@@ -223,19 +223,23 @@ blockquote{
 
 @media (min-width: 768px) {
     #about {
-    text-align: left;
+        text-align: left;
     }
 
     #connect {
-    text-align: left;
+        text-align: left;
+    }
+    
+    #connect .fa {
+        font-size: 50px;
     }
 
     #meditation {
-    text-align: left;
+        text-align: left;
     }
     
     #guides {
-    text-align: left;
+        text-align: left;
     }
     
 }
