@@ -73,14 +73,6 @@ outline:none !important;
     text-align: center;
 }
 
-/***
-#header-title {
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px;
-    border-radius: 10px;
-} 
-***/
-
 #header-title {
     font-weight: 700;
 }
@@ -106,9 +98,12 @@ outline:none !important;
 
 #about .fa {
     color: #fc4a1a;
-    text-align: center;
     width: 50%;
     padding: 10px 0;
+}
+
+#about .row a {
+    color: #fc4a1a;
 }
 
 
