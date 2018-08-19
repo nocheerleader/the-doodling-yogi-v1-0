@@ -62,21 +62,30 @@ outline:none !important;
 /*---------------------- Header */
 
 #header {
-    background: url(img/header.jpg) center center no-repeat;
+    background: url(img/header2.jpg) center center no-repeat;
     opacity: 0.85;
     background-size: cover;
     height: 100%;
     color: #ffffff;
+    font-weight: 400;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
+/***
 #header-title {
     background-color: rgba(0,0,0,0.5);
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
+} 
+***/
+
+#header-title {
+    font-weight: 700;
 }
+
+
 
 #header .fa {
     color: #ffffff;
