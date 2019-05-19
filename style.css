@@ -138,6 +138,11 @@ outline:none !important;
     text-align: center;
 }
 
+#meditation h5 {
+    color: #4abdac;
+}
+
+
 /*---------------------- Illustrated Guides */
 
 #guides {
@@ -202,3 +207,30 @@ outline:none !important;
     }
     
 }
+
+@media (max-width: 768px) {
+    #about p {
+        text-align: justify;
+    }
+    
+    .hide-list {
+        display: none;
+}
+    
+    #about ul {
+        display: none;
+}
+    
+    #connect p {
+        text-align: justify;
+    }
+
+    #meditation p {
+        text-align: justify;
+    }
+    
+    #guides p {
+        text-align: justify;
+    }
+}
+
