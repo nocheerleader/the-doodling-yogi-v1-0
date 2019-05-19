@@ -95,6 +95,12 @@ outline:none !important;
     text-align: center;
 }
 
+#about hr {
+     text-align: center;
+     width: 100%;
+     border-top: 1px solid #D8D8D8;
+}
+
 #about .fa {
     color: #fc4a1a;
     width: 50%;
@@ -111,6 +117,12 @@ outline:none !important;
 #connect {
     padding: 60px 0;
     text-align: center;
+}
+
+#connect hr {
+     text-align: center;
+     width: 100%;
+     border-top: 1px solid #D8D8D8;
 }
 
 #connect a {
@@ -138,6 +150,12 @@ outline:none !important;
     text-align: center;
 }
 
+#meditation hr {
+     text-align: center;
+     width: 100%;
+     border-top: 1px solid #D8D8D8;
+}
+
 #meditation h5 {
     color: #4abdac;
 }
@@ -149,6 +167,12 @@ outline:none !important;
     background-color: #f8f7f9;
     padding: 60px 0;
     text-align: center;
+}
+
+#guides hr {
+     text-align: center;
+     width: 100%;
+     border-top: 1px solid #D8D8D8;
 }
 
 #guides a {
@@ -164,6 +188,12 @@ outline:none !important;
 #contact {
     background-color: #f8f7f9;
     padding: 60px 0;
+}
+
+#contact hr {
+     text-align: center;
+     width: 50%;
+     border-top: 1px solid #D8D8D8;
 }
 
 /*---------------------- Footer */
@@ -186,10 +216,10 @@ outline:none !important;
 /*---------------------- Media Queries */
 
 @media (min-width: 768px) {
-    #about {
+    #about p {
         text-align: left;
     }
-
+    
     #connect {
         text-align: left;
     }
