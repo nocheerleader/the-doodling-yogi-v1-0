@@ -20,7 +20,6 @@ I was able to achieve these goals by building a static single page scrolling web
 * A Contact Form at the bottom of the website to prompt current or prospective students to contact the client with any questions they have after they have visited her website 
 
 ## User Stories 
----
 After careful research and brainstorming with the client I knew I wanted to build this website with prospective users in mind. From their perspective I created the following user stories to keep me on track: 
 
 * As a current student, I want to be able to contact my yoga teacher so that I can find out what time the class is on this weekend.
@@ -30,12 +29,10 @@ After careful research and brainstorming with the client I knew I wanted to buil
 * As a beginner looking into starting yoga, I want to be able to get a feel for the teacher on her social media, so I can make the best decision before signing up for a new class.
 
 ## Wireframes
----
-The desktop wireframe can be viewed [Link](https://github.com/nocheerleader/the-doodling-yogi-v1-0/blob/master/wireframes/desktop_wireframe.jpg)
-The mobile wireframe can be viewed [Link](https://github.com/nocheerleader/the-doodling-yogi-v1-0/blob/master/wireframes/mobile_wireframe.jpg)
+* The desktop wireframe can be viewed [here](https://photos.app.goo.gl/3Gey3JW2MDYTLmrXA)
+* The mobile wireframe can be viewed [here](https://photos.app.goo.gl/6JqkzLfjkSavuoAC7)
 
 ## Features
----
 The Doodling Yogi is mobile-first and responsive so users will have a good experience viewing the website at home on their widescreen monitors or while out and about on their mobile screens. 
 
 On the top right of the website there is a navigation menu. When hovered over, the links on the navigation change from white to orange. This allows the user to identify these elements as links. The navigation bar allows users to quickly navigate to any section of the website they require by clicking on the relevant link. This menu is always available when scrolling through the website. On mobile devices this becomes a hamburger navigation menu to fit on the smaller screen. 
@@ -47,7 +44,6 @@ The social media icons act as links to relevant social media platforms. When hov
 The contact from allows users to get in touch with the yoga teacher, users can leave submit their email address and questions or messages from the teacher and she can reply via email at her convenience. 
 
 ## Features Left to Implement
----
 In the future, I would like to add additional features for the client including: 
 
 * A class schedule and a map to the class location 
@@ -56,39 +52,39 @@ In the future, I would like to add additional features for the client including:
 * A blog with fresh content added regularly by the client to keep students returning to her website for up to date information  
 
 ## Technologies Used
----
-**CLOUD9 IDE**
+
+* **CLOUD9 IDE**
 https://c9.io
 Cloud9 is an online integrated development environment that supports multiple programming languages HTML, JavaScript and Python. I used it to build and save my project and also to push my commits to GitHub as it has a built in Unix terminal. 
 
-**HTML5**
+* **HTML5**
 https://www.w3.org/html/
 HTML5 is the 5th edition of the internet's core markup language used for creating content for the web and web applications. I used this as the foundation to build the structure of the website. 
 
-**CSS** 
+* **CSS** 
 https://www.w3.org/Style/CSS/Overview.en.html
 CSS aka Cascading Style Sheets is a file used to keep the structure of a document (HTML) separate from the details of how to design and display it. I keep my style.css file separate from my index.html to make maintenance of the website less complicated. 
  
-**BOOTSTRAP 4.0.0**
+* **BOOTSTRAP 4.0.0**
 https://getbootstrap.com/
 Bootstrap is an open source CSS framework library used to build mobile-first responsive websites and web applications. The head of my HTML file contains a link to the version 4.0.0 of Bootstrap, the latest version available at the time of deployment. I used Bootstrap for speed of build and because it allowed customisation to fit my design style. 
 
-**JAVASCRIPT and JQUERY**
+* **JAVASCRIPT and JQUERY**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://jquery.com/
 JavaScript is an object-oriented computer programming language that follows the ECMAScript standards. While JQuery is an open source JavaScript library used to simplify HTML and DOM manipulation . As the scope of this project required a static website I have only included JavaScript and JQuery in the technology used section as they are required for the Bootstrap framework to function correctly. You will find source links to their CDNs at the bottom of my index.html file. 
 
-**FONT AWESOME**
+* **FONT AWESOME**
 https://fontawesome.com/
 Font Awesome is an open source toolkit used to add fonts and icons to a website. I used icons from the library by adding a link to the Font Awesome CDN in the head of my index.html file. I used icons to display the links to the clients social media sites as they added a visual meaning to the elements. 
 
-**GOOGLE FONTS**
+* **GOOGLE FONTS**
 https://fonts.google.com/
 Google Fonts is an API which allows developers to use web fonts in their sites and web applications. From the Google Fonts collection I chose two fonts for this website - Pacifico and Ubuntu. After making my selection I added a stylesheet link to request the desired web font from the API and finally in the style.css stylesheet I styled an element with the requested web font.
 
 ## Testing
----
-Firstly I checked index.html on [Link](https://validator.w3.org/) and removed fixed the errors and warnings identified. I followed this up by checking style.ccs on [Link](https://jigsaw.w3.org/css-validator/) where no errors were found besides known issues with Bootstrap validation. An explanation of why these errors exist is found on the official Bootstrap website: [Link](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#validators)
+
+Firstly I checked index.html on [validator.w3.org/](https://validator.w3.org/) and removed fixed the errors and warnings identified. I followed this up by checking style.ccs on [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) where no errors were found besides known issues with Bootstrap validation. An explanation of why these errors exist is found on the official Bootstrap website: [getbootstrap.com/docs/4.0](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#validators)
 
 To check responsiveness I viewed the site on a few different devices of family and friends, including: 
 - Mac 21” monitor 
@@ -99,7 +95,7 @@ To check responsiveness I viewed the site on a few different devices of family a
 - iPad Mini 
 - iPad 768 x 1024
 
-I also used [Link](https://responsivedesignchecker.com/) and Chrome Dev Tools for testing all other devices.
+I also used [responsivedesignchecker.com/](https://responsivedesignchecker.com/) and Chrome Dev Tools for testing all other devices.
 
 The site was also tested across multiple browsers to ensure compatibility (Chrome, Firefox, Edge, Safari and Internet Explorer).
 
@@ -113,7 +109,7 @@ I also carried out some testing based on the User Stories created above:
 * As a current student, I want to be able to contact my yoga teacher so that I can find out what time the class is on this weekend.
 Testing of the contact form found that the validation of the email address is working correctly. For example, if a user fills in the ‘Email’ field without an @ symbol and clicks the submit button, they will receive a warning that there must be a valid email address including the @ symbol before the form can be submitted. 
 
-*As a prospective student, I want to review the teachers qualifications, to ensure I am attending classes with a professional. 
+* As a prospective student, I want to review the teachers qualifications, to ensure I am attending classes with a professional. 
 While on the site I scrolled to the About Me section where I easily found the content required. From here I found links, easily identified by the orange colour and when hovered over an underline appears underneath to acknowledge these are links to the user. The links take the user to the institutes where the client studied to become a professional yoga teacher. 
 
 * As the husband of a yoga student, I want to review the art work of the teacher, so I can commission a piece for my wife's birthday. 
@@ -124,10 +120,10 @@ This information can be found in the Connect With section. As per the user story
 Scrolling to the Meditation section, I added and tested an audio file. The audio file is an original made by the client. I used the <audio> element to embed this content into the website. And added the controls attribute to allow users to play and pause the audio file, as well as adding the functionality of volume control. There is also some standard text added between the audio tags which will only be displayed in browsers that do not support the <audio> element.
 
 ## Deployment
----
+
 At the start of the build a new repository was created in GitHub and initialised in Git. Throughout the development, the project was regularly pushed to GitHub, ensuring each new piece of functionality would be in a separate commit. 
 
-[Link](https://nocheerleader.github.io/the-doodling-yogi-v1-0/) is hosted using GitHub pages, deployed directly from the master branch.
+[nocheerleader.github.io/the-doodling-yogi-v1-0/](https://nocheerleader.github.io/the-doodling-yogi-v1-0/) is hosted using GitHub pages, deployed directly from the master branch.
 
 To run the project locally you can clone this repository directly into any HTML editor, for example ATOM, Notepad++ or Sublime. 
 
@@ -135,7 +131,7 @@ To run the project locally you can clone this repository directly into any HTML 
 ---
 
 **Content**
-All content in the About Me section, all illustrations and the guided meditation audio file was provided by the client, Trea Ivory. Content for the Meditation section was borrowed from [Link](https://www.purposefairy.com/) personal development blog.
+All content in the About Me section, all illustrations and the guided meditation audio file was provided by the client, Trea Ivory. Content for the Meditation section was borrowed from [purposefairy.com](https://www.purposefairy.com/) personal development blog.
 
 **Media**
 The illustrations and audio file were both also provided by the client, Trea Ivory. The background image used on the jumbotron came from www.pexels.com
