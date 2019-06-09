@@ -2,14 +2,13 @@
 
 ## Code Institute - User Centric Frontend Development Milestone Project 
 
-[Link](https://nocheerleader.github.io/the-doodling-yogi-v1-0/)
+[nocheerleader.github.io/the-doodling-yogi-v1-0/](https://nocheerleader.github.io/the-doodling-yogi-v1-0/)
 
 This website was commissioned by Trea Ivory. Trea is a yoga teacher who combines her professional yoga training with her love for illustration. She wanted a website which demonstrated her yoga qualifications, showcased her art work and provided current and prospective students with her contact details and how to connect with her on social media. 
 
 The website highlights the studies undertaken by Trea to become a professional yoga teacher and it displays details of how to contact Trea to obtain a quote for personalised illustration pieces. There is also a section included for Trea’s guided meditation audio files. This was included for her current students so they can follow along at home. 
 
 ## UX
----
 The objective when building this website was to provide value to both current and prospective students. After meeting with the client, I knew what she wanted to achieve. She required a website which displayed her studies and professional qualifications, a place where students could connect with her and find her across different social media platforms and a place where she could add value for her students, by giving them access to her guided meditations and her easy to follow illustrated guides. 
 
 I was able to achieve these goals by building a static single page scrolling website divided into clear sections: 
