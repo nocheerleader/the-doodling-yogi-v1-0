@@ -2,7 +2,7 @@
 
 ## Code Institute - User Centric Frontend Development Milestone Project 
 
-[nocheerleader.github.io/the-doodling-yogi-v1-0/](https://nocheerleader.github.io/the-doodling-yogi-v1-0/)
+[the-doodling-yogi-v1-0](https://nocheerleader.github.io/the-doodling-yogi-v1-0/)
 
 This website was commissioned by Trea Ivory. Trea is a yoga teacher who combines her professional yoga training with her love for illustration. She wanted a website which demonstrated her yoga qualifications, showcased her art work and provided current and prospective students with her contact details and how to connect with her on social media. 
 
@@ -13,11 +13,11 @@ The objective when building this website was to provide value to both current an
 
 I was able to achieve these goals by building a static single page scrolling website divided into clear sections: 
 
-* An About Me section detailing the clients achievements and qualifications which would help to attract new students 
-* A Social Media section allowing students to connect with the client and to find out when and where she holds her classes and workshops 
-* An Illustrated Guide section for students to use outside of class and to also display the type of illustration commissions the client takes on 
-* A Meditation section including audio files to showcase what you’ll participate in if you attend one of the clients classes, or to use independently at home 
-* A Contact Form at the bottom of the website to prompt current or prospective students to contact the client with any questions they have after they have visited her website 
+* An **About Me** section detailing the clients achievements and qualifications which would help to attract new students 
+* A **Social Media** section allowing students to connect with the client and to find out when and where she holds her classes and workshops 
+* An **Illustrated Guides** section for students to use outside of class and to also display the type of illustration commissions the client takes on 
+* A **Meditation** section including audio files to showcase what you’ll participate in if you attend one of the clients classes, or to use independently at home 
+* A **Contact Form** at the bottom of the website to prompt current or prospective students to contact the client with any questions they have after they have visited her website 
 
 ## User Stories 
 After careful research and brainstorming with the client I knew I wanted to build this website with prospective users in mind. From their perspective I created the following user stories to keep me on track: 
@@ -84,7 +84,7 @@ Google Fonts is an API which allows developers to use web fonts in their sites a
 
 ## Testing
 
-Firstly I checked index.html on [validator.w3.org/](https://validator.w3.org/) and removed fixed the errors and warnings identified. I followed this up by checking style.ccs on [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) where no errors were found besides known issues with Bootstrap validation. An explanation of why these errors exist is found on the official Bootstrap website: [getbootstrap.com/docs/4.0](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#validators)
+Firstly I checked index.html on [validator.w3.org](https://validator.w3.org/) and removed fixed the errors and warnings identified. I followed this up by checking style.ccs on [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/) where no errors were found besides known issues with Bootstrap validation. An explanation of why these errors exist is found on the official Bootstrap website: [getbootstrap.com](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#validators)
 
 To check responsiveness I viewed the site on a few different devices of family and friends, including: 
 - Mac 21” monitor 
@@ -95,7 +95,7 @@ To check responsiveness I viewed the site on a few different devices of family a
 - iPad Mini 
 - iPad 768 x 1024
 
-I also used [responsivedesignchecker.com/](https://responsivedesignchecker.com/) and Chrome Dev Tools for testing all other devices.
+I also used [responsivedesignchecker.com](https://responsivedesignchecker.com/) and Chrome Dev Tools for testing all other devices.
 
 The site was also tested across multiple browsers to ensure compatibility (Chrome, Firefox, Edge, Safari and Internet Explorer).
 
@@ -123,12 +123,12 @@ Scrolling to the Meditation section, I added and tested an audio file. The audio
 
 At the start of the build a new repository was created in GitHub and initialised in Git. Throughout the development, the project was regularly pushed to GitHub, ensuring each new piece of functionality would be in a separate commit. 
 
-[nocheerleader.github.io/the-doodling-yogi-v1-0/](https://nocheerleader.github.io/the-doodling-yogi-v1-0/) is hosted using GitHub pages, deployed directly from the master branch.
+[the-doodling-yogi-v1-0](https://nocheerleader.github.io/the-doodling-yogi-v1-0/) is hosted using GitHub pages, deployed directly from the master branch.
 
 To run the project locally you can clone this repository directly into any HTML editor, for example ATOM, Notepad++ or Sublime. 
 
 ## Credits
----
+
 
 **Content**
 All content in the About Me section, all illustrations and the guided meditation audio file was provided by the client, Trea Ivory. Content for the Meditation section was borrowed from [purposefairy.com](https://www.purposefairy.com/) personal development blog.
